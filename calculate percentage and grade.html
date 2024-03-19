@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let Physics=parseInt(prompt("please enter physics marks"));
+        console.log("Physicsy",Physics);
+
+        let Chemistry=parseInt(prompt("please enter Chemistry marks"));
+        console.log("Chemistry",Chemistry);
+
+        let Biology=parseInt(prompt("please enter Biology marks"));
+        console.log("Biology",Biology);
+
+        let Mathematics=parseInt(prompt("please enter Mathematics marks"));
+        console.log("Mathematics",Mathematics);
+
+        let Computer=parseInt(prompt("please enter Computer marks"));
+        console.log("Computer",Computer);
+
+        let total;
+        total=Physics+Chemistry+Biology+Mathematics+Computer;
+        console.log("total",total);
+
+        let percentage;
+        percentage=(total/500)*100;
+        console.log("percentage",percentage);
+
+        if(percentage>=90)
+        {
+            console.log("grade = A");
+        }
+        else if(percentage>=80)
+        {
+            console.log("grade = B");
+        }
+        else if(percentage>=70)
+        {
+            console.log("grade = C");
+        }
+        else if(percentage>=60)
+        {
+            console.log("grade = D");
+        }
+        else if(percentage>=50)
+        {
+            console.log("grade = E");
+        }
+        else
+        {
+            console.log("grade = F");
+        }
+
+    </script>
+</body>
+</html>
