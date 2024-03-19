@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let day=(prompt("enter first letter of day name"));
+
+        if(day=="M" || day=="m")
+        {
+            console.log("monday");
+        }
+        else if(day=="T" || day=="t")
+        {
+          s_letter= prompt("please enter second letter from tu or th");
+           if(s_letter=="TU" || s_letter=="tu")
+          {
+            console.log("Tuesday");
+
+          }
+          else
+          {
+            console.log("Thursday");
+          }
+        }
+        else if(day=="W" || day=="w")
+        {
+              console.log("wednesday");
+        }
+        else if(day=="F" || day=="f")
+        {
+            console.log("Friday");
+        }
+        else if(day=="S" || day=="s")
+        {
+        s_letter= prompt("please enter second letter from sa or su");
+           if(s_letter=="SA" || s_letter=="sa")  
+           {
+            console.log("saturday");
+           }
+           else
+           {
+            console.log("sunday");
+           }
+        }
+        else
+        {
+            console.log("please enter valid character from week");
+        }
+        
+    </script>
+</body>
+</html>

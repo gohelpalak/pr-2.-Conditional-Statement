@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let f_num=parseInt(prompt("enter first number"));
+        let s_num=parseInt(prompt("enter second number"));
+        let oper=prompt("enter operator to perfom opration");
+        let ans;
+
+        if(oper=="+")
+        {
+           ans=f_num + s_num;
+           console.log("answer=",ans);
+        }
+       else if(oper=="-")
+        {
+           ans=f_num - s_num;
+           console.log("answer=",ans);
+        }
+       else if(oper=="*")
+        {
+           ans=f_num * s_num;
+           console.log("answer=",ans);
+        }
+       else if(oper=="/")
+        {
+           ans=f_num / s_num;
+           console.log("answer=",ans);
+        }
+       else if(oper=="%")
+        {
+           ans=f_num % s_num;
+           console.log("answer=",ans);
+        }
+        else
+        {
+            console.log("please enter valid number");
+        }
+
+
+
+    </script>
+</body>
+</html>
